@@ -5,3 +5,13 @@
 // Needs a playlist owner input
 // Needs a playlist public/private toggle
 // Needs a playlist created at input
+
+function PlayList() {
+    return (
+        <div>
+            <h1>PlayList</h1>
+        </div>
+    );
+}
+
+export default PlayList;
