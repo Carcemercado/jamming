@@ -7,7 +7,6 @@
 // Needs a search results item album
 
 
-
 function SearchResults() {
     return (
         <div>
