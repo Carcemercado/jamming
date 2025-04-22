@@ -1,3 +1,5 @@
+import React from 'react';
+import styles from './SearchResults.module.css';
 
 // Needs a search results list
 // Needs a search results item
@@ -9,8 +11,13 @@
 
 function SearchResults() {
     return (
-        <div>
-            <h1>SearchResults</h1>
+        <div className={styles.grid}>
+            <h2>SearchResults</h2>
+            <ul>
+                <li>
+                    {/* Add TrackList component /> */}
+                </li>
+            </ul>
         </div>
     );
 }

@@ -19,7 +19,7 @@ const SearchBar = () => {
                 <br />
                 <input type="submit" value="Search" />
             </form>
-            <p>{songName}</p>
+            <p>You are searching for: {songName}</p>
             
         </div>
     );

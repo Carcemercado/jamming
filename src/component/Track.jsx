@@ -1,10 +1,13 @@
+import React from 'react';
+import styles from './TrackList.module.css';
 
-
-
-function Track() {
+function Track(props) {
+    
     return (
-        <div>
-            <h1>Track</h1>
+        <div className={styles.Track}>
+            <h3>{props.trackName}</h3>
+            <p>{props.artist}</p>
+            <p>{props.album}</p>  
         </div>
     );
 }

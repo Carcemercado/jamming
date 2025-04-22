@@ -1,3 +1,8 @@
+import React from 'react';
+import styles from './PlayList.module.css';
+import TrackList from './TrackList';
+
+
 // Needs a save to Spotify button
 // Needs a playlist name input
 // Needs a playlist description input
@@ -8,8 +13,13 @@
 
 function PlayList() {
     return (
-        <div>
-            <h1>PlayList</h1>
+        <div className={styles.grid}>
+            <h2>PlayList</h2>
+            <ul>
+                <li>
+                    <TrackList />
+                </li>
+            </ul>
         </div>
     );
 }
